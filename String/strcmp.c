@@ -5,6 +5,11 @@ int main(void)
 
     printf("enter the string");
     scanf("%s",str);
+    // other way of comparing
+    /*if(strcmp(str,"hi") == 0)
+    {
+        printf("found");
+    }*/
 
 
    value = strcmp(str,"hi");
